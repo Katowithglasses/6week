@@ -82,7 +82,10 @@ grid-area: hd;
 }
 
 .footer{
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:  1fr ;
+    justify-content: space-around;
     background: #fee79a;
 } 
 
